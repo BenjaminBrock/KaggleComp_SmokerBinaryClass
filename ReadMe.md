@@ -9,5 +9,7 @@ This is likely due to 2 factors:
 * The data is synthetic and generated from a significantly smaller sample size.
 * The features recorded within this data set may not be the ideal measurements to use. A quick google search provides the following article from the national library of medicine - indicating that urine cotine levels could be a far superior feature, missing from the data set.
 
+**` https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5336443/ `**
+
 Overall, this was an enjoyable exploratory task and also allowed for a better unerstanding of the hardware requirements of each model. For example, runing an SVC model on a dataset with so many features is significantly more computationally heavy than the random forest when handling the higher feature sets.
 
